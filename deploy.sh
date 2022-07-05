@@ -6,13 +6,13 @@ set -e
 # 添加到docs仓库
 git add .
 git commit -m 'blob-docs change'
-git pull origin master
+# git pull origin master
 git push origin master git@github.com:xiaojingming/my-blob-docs.git
 
 # 生成静态文件
 npm run docs:build
 
-# 进入生成的文件夹
+# 进入生成的文件夹 
 cd docs/.vuepress/dist
 
 git init
