@@ -6,7 +6,7 @@ set -e
 # 添加到docs仓库
 git add .
 git commit -m 'blob-docs change'
-git pull --rebase origin master
+git pull origin master
 git push origin git@github.com:xiaojingming/my-blob-docs.git master
 
 # 生成静态文件
