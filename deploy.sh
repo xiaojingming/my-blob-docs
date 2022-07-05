@@ -7,7 +7,7 @@ set -e
 git add .
 git commit -m 'blob-docs change'
 git pull origin master
-git push -u origin master git@github.com:xiaojingming/my-blob-docs.git
+git push -u origin master
 
 # 生成静态文件
 npm run docs:build
