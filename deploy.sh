@@ -20,6 +20,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f build git@github.com:xiaojingming/my-blob.git master:gh-pages
+git push -f build gh-pages
 
 cd -
