@@ -17,7 +17,7 @@ cd docs/.vuepress/dist
 
 git add -A
 git commit -m 'deploy'
-
+git pull build gh-pages
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f build gh-pages
 
