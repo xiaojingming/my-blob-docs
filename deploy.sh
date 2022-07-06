@@ -14,6 +14,8 @@ npm run docs:build
 
 # 进入生成的文件夹 
 cd docs/.vuepress/dist
+git init
+git remote add build git@github.com:xiaojingming/my-blob.git
 git add -A
 git commit -m 'deploy'
 git pull build master --allow-unrelated-histories
