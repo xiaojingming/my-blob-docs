@@ -14,11 +14,12 @@ npm run docs:build
 
 # 进入生成的文件夹 
 cd docs/.vuepress/dist
-git checkout gh-pages
+git init
+git remote add build git@github.com:xiaojingming/my-blob.git
 git add -A
 git commit -m 'deploy'
-git pull build gh-pages --allow-unrelated-histories
+# git pull build master --allow-unrelated-histories
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push build gh-pages
+git push -f build master
 
 cd -
