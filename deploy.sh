@@ -18,8 +18,8 @@ git init
 git remote add build git@github.com:xiaojingming/my-blob.git
 git add -A
 git commit -m 'deploy'
-git pull build master --allow-unrelated-histories
+# git pull build master --allow-unrelated-histories
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f build
+git push -f build master
 
 cd -
