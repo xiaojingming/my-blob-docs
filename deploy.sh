@@ -14,6 +14,7 @@ npm run docs:build
 
 # 进入生成的文件夹 
 cd docs/.vuepress/dist
+cp -r ../../../.github ./
 git init
 git remote add build git@github.com:xiaojingming/my-blob.git
 git remote add build-gitee git@gitee.com:xiao_jing_ming/my-blob.git
