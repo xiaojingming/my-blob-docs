@@ -1,6 +1,6 @@
 module.exports = {
   base: '/my-blob/',
-  title: '萧~个人博客❤️❤️❤️',
+  title: '萧~个人博客❤️❤️',
   description: '萧~个人博客',
   theme: 'reco',
   locales: {
