@@ -17,7 +17,6 @@ cd docs/.vuepress/dist
 cp -r ../../../.github ./
 git init
 git remote add build git@github.com:xiaojingming/my-blob.git
-git remote add build-gitee git@gitee.com:xiao_jing_ming/my-blob.git
 git add -A
 git commit -m 'deploy'
 # git pull build master --allow-unrelated-histories
