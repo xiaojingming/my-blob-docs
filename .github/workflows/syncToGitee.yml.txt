@@ -1,5 +1,4 @@
-cjhjqwhcoiocieoopjope
-
+console.log(123)
 name: syncToGitee
 on:
   push:
