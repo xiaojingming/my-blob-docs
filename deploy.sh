@@ -21,5 +21,6 @@ git commit -m 'deploy'
 # git pull build master --allow-unrelated-histories
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f build master
+git push -f git@gitee.com:xiao_jing_ming/my-blob.git build:master
 
 cd -
