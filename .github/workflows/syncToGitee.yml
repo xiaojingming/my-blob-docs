@@ -10,10 +10,10 @@ jobs:
       - name: Mirror the Github organization repos to Gitee.
         uses: Yikun/hub-mirror-action@master
         with:
-          src: github/xiaojingming
-          dst: gitee/xiao_jing_ming
+          src: 'github/xiaojingming'
+          dst: 'gitee/xiao_jing_ming'
           dst_key: '${{ secrets.GITEE_PRIVATE_KEY }}'
           dst_token: '${{ secrets.GITEE_TOKEN }}'
-          static_list: my-blob
+          static_list: 'my-blob'
           force_update: true
           debug: true
