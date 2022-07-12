@@ -12,8 +12,8 @@ jobs:
         with:
           src: 'github/xiaojingming'
           dst: 'gitee/xiao_jing_ming'
-          dst_key: '${{ secrets.GITEE_PRIVATE_KEY }}'
-          dst_token: '${{ secrets.GITEE_TOKEN }}'
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
           static_list: 'my-blob'
           force_update: true
           debug: true
