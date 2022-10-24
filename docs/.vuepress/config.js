@@ -43,21 +43,12 @@ module.exports = {
         title: '学习总结',
         children: [
           {
-            title: 'JavaScript',
-            path: '/handBook/JavaScript',
-          },
-          {
-            title: 'ECMAScript',
-            path: '/handBook/ES/Statement',
-            collapsable: false,
+            title: 'TypeScript类型体操',
+            path: '/TypeScript/IsNever',
             children: [
               {
-                title: '声明方式',
-                path: '/handBook/ES/Statement',
-              },
-              {
-                title: '解构赋值',
-                path: '/handBook/ES/Deconstruct',
+                title: 'IsNever',
+                path: '/TypeScript/IsNever'
               }
             ]
           }
