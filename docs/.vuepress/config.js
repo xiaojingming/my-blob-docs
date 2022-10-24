@@ -1,7 +1,7 @@
 module.exports = {
   base: '/my-blob/',
-  title: '萧~个人博客😘😘😘😘😘😘😘',
-  description: '萧~个人博客',
+  title: '😘学习总结',
+  description: '萧~学习总结',
   theme: 'reco',
   locales: {
     '/': {
@@ -27,9 +27,20 @@ module.exports = {
     subSidebar: 'auto',
     sidebar: [
       {
+        title: '欢迎',
+        children: [
+          {
+            title: '关于',
+            path: '/introduction/About',
+          },
+          {
+            title: '勘误',
+            path: '/introduction/Error'
+          }
+        ]
+      },
+      {
         title: '学习总结',
-        path: '/handBook/Summary',
-        collapsable: false,
         children: [
           {
             title: 'JavaScript',
@@ -53,5 +64,14 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    ['@vuepress/last-updated'],
+    [
+      '@vuepress/register-components',
+      {
+         componentsDir: '/docs/.vuepress/components'
+      }
+    ]
+  ]
 };
