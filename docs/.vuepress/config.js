@@ -6,6 +6,9 @@ module.exports = {
       lang: 'zh-CN',
     },
   },
+  head: [
+    [ 'link', { rel: 'icon', href: '/icon.png' } ]
+  ],
   themeConfig: {
     nav: [
       {
