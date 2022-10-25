@@ -1,6 +1,4 @@
 module.exports = {
-  base: '/my-blob/',
-  title: '😘学习总结',
   description: '萧~学习总结',
   theme: 'reco',
   locales: {
@@ -12,7 +10,7 @@ module.exports = {
     nav: [
       {
         text: '首页',
-        link: '/',
+        link: '/introduction/About',
       },
       {
         test: '萧~的个人博客',
