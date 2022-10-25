@@ -49,6 +49,10 @@ module.exports = {
               {
                 title: 'IsNever',
                 path: '/TypeScript/IsNever'
+              },
+              {
+                title: 'IsUnion',
+                path: '/TypeScript/IsUnion'
               }
             ]
           }
