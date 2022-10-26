@@ -1,3 +1,5 @@
+const tsRoute = require('./router/tsRoute');
+
 module.exports = {
   description: '萧~学习总结',
   theme: 'reco',
@@ -46,16 +48,7 @@ module.exports = {
           {
             title: 'TypeScript类型体操',
             path: '/TypeScript/IsNever',
-            children: [
-              {
-                title: 'IsNever',
-                path: '/TypeScript/IsNever'
-              },
-              {
-                title: 'IsUnion',
-                path: '/TypeScript/IsUnion'
-              }
-            ]
+            children: tsRoute
           }
         ]
       }
