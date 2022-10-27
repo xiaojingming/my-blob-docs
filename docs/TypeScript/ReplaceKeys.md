@@ -13,7 +13,7 @@ date: '2022-10-26'
 
 Implement a type ReplaceKeys, that replace keys in union types, if some type has not this key, just skip replacing, A type takes three arguments.
 
->(实现一个ReplaceKeys类型函数，该函数接收三个参数，第一个参数是待替换的目标联合类型，第二个参数是替换的key，第三个是替换的内容)
+>(实现一个ReplaceKeys类型，该类型接收三个泛型，第一个泛型是待替换的目标联合类型，第二个泛型是替换的key，第三个泛型是替换的内容)
 
 For example:
 ```
@@ -50,4 +50,4 @@ type ReplaceKeys<U, K, V> = {
 };
 ```
 
-如果```key```即在```K```中存在，当```key```在```V```中存在时，返回类型```V[Key]```，否则返回```never```，如果```key```不存在于K中，则直接返回原本的类型。
+如果```key```在```K```中存在，当```key```在```V```中存在时，返回类型```V[Key]```，否则返回```never```，如果```key```不存在于K中，则直接返回原本的类型。
