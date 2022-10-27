@@ -1,7 +1,7 @@
 const tsRoute = require('./router/tsRoute');
 
 module.exports = {
-  description: '萧~学习总结',
+  description: '萧~个人学习总结',
   theme: 'reco',
   locales: {
     '/': {
