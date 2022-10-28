@@ -127,4 +127,4 @@ location /test/ {
   alias html/test;
 }
 ```
-> 访问的就是正确的内容，因此我们得出结论：**root 是拼接 root + location 而 alias 是用 alias 替换 location**，所以在上面的配置中，更适合使用```alias```，或者修改为```root html;```
+> 访问的就是正确的内容，因此我们得出结论：**root 是拼接 root + location 而 alias 是用 alias 替换 location**，所以在上面的配置中，更适合使用```alias```，或者修改为```root html;```即可
