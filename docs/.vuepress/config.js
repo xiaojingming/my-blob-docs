@@ -1,4 +1,5 @@
-const tsRoute = require('./router/tsRoute');
+const tsRoute = require('./router/tsRoutes');
+const othersRoutes = require('./router/othersRoutes');
 
 module.exports = {
   description: '萧~个人学习总结',
@@ -9,13 +10,13 @@ module.exports = {
     },
   },
   head: [
-    [ 'link', { rel: 'icon', href: '/icon.png' } ]
+    [ 'link', { rel: 'icon', href: '/icon.png' } ],
   ],
   themeConfig: {
     nav: [
       {
         text: '首页',
-        link: '/introduction/About',
+        link: '/Introduction/About',
       },
       {
         test: '萧~的个人博客',
@@ -23,9 +24,9 @@ module.exports = {
           {
             text: 'Github',
             link: 'https://github.com/xiaojingming'
-          }
-        ]
-      }
+          ,},
+        ],
+      },
     ],
     subSidebar: 'auto',
     sidebar: [
@@ -34,13 +35,13 @@ module.exports = {
         children: [
           {
             title: '关于',
-            path: '/introduction/About',
+            path: '/Introduction/About',
           },
           {
             title: '勘误',
-            path: '/introduction/Error'
-          }
-        ]
+            path: '/Introduction/Error'
+          },
+        ],
       },
       {
         title: '学习总结',
@@ -49,18 +50,23 @@ module.exports = {
             title: 'TypeScript类型体操',
             path: '/TypeScript/IsNever',
             children: tsRoute
-          }
-        ]
-      }
-    ]
+          },
+          {
+            title: '其它',
+            path: '/Others/nginxLocation',
+            children: othersRoutes,
+          },
+        ],
+      },
+    ],
   },
   plugins: [
     ['@vuepress/last-updated'],
     [
       '@vuepress/register-components',
       {
-         componentsDir: '/docs/.vuepress/components'
-      }
-    ]
-  ]
+        componentsDir: '/docs/.vuepress/components',
+      },
+    ],
+  ],
 };

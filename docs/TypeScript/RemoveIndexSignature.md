@@ -13,7 +13,7 @@ date: '2022-10-27'
 
 Implement RemoveIndexSignature\<T\> , exclude the index signature from object types.
 
->(实现一个RemoveIndexSignature类型， 接收一个对象类型，并派出其中的索引签名)
+>(实现一个RemoveIndexSignature类型， 接收一个对象类型，并排除其中的索引签名)
 
 For example:
 ```

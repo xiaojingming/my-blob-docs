@@ -1,4 +1,4 @@
-const tsRoute = [
+const tsRoutes = [
   {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
@@ -17,4 +17,4 @@ const tsRoute = [
   },
 ];
 
-module.exports = tsRoute;
+module.exports = tsRoutes;
