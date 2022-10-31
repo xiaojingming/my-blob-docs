@@ -17,7 +17,7 @@ const tsRoutes = [
   },
   {
     title: 'PercentageParser',
-    path: '/TypeScipr/PercentageParser'
+    path: '/TypeScript/PercentageParser'
   }
 ];
 
