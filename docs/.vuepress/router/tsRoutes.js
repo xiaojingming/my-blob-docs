@@ -15,6 +15,10 @@ const tsRoutes = [
     title: 'RemoveIndexSignature',
     path: '/TypeScript/RemoveIndexSignature',
   },
+  {
+    title: 'PercentageParser',
+    path: '/TypeScipr/PercentageParser'
+  }
 ];
 
 module.exports = tsRoutes;
