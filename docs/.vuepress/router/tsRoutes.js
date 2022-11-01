@@ -23,6 +23,10 @@ const tsRoutes = [
     title: 'DropChar',
     path: '/TypeScript/DropChar',
   },
+  {
+    title: 'MinusOne',
+    path: '/TypeScript/MinusOne',
+  },
 ];
 
 module.exports = tsRoutes;
