@@ -27,7 +27,7 @@ export default {
     handleSetText() {
       this.buttonText = copiedButtonText;
       setTimeout(() => {
-        this.buttonText = copyButtonText
+        this.buttonText = copyButtonText;
       }, 1000);
     }
   },
