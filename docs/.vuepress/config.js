@@ -21,8 +21,8 @@ module.exports = {
     })();
     </script>
     `],
-    [ 'script', { src: 'https://unpkg.com/vconsole@latest/dist/vconsole.min.js' },  ],
-    [ 'script', {}, ` var vConsole = new window.VConsole();` ]
+    // [ 'script', { src: 'https://unpkg.com/vconsole@latest/dist/vconsole.min.js' },  ],
+    // [ 'script', {}, ` var vConsole = new window.VConsole();` ]
   ],
   themeConfig: {
     nav: [

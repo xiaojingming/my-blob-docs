@@ -21,14 +21,6 @@ export default {
     handleSetClipboard(code, cb) {
       if (window.navigator.clipboard) {
         navigator.clipboard.writeText(code).then(cb)
-      } else {
-        const copyelement = document.createElement('textarea')
-        document.body.appendChild(copyelement)
-        copyelement.value = code
-        copyelement.select()
-        document.execCommand('Copy')
-        copyelement.remove()
-        cb()
       }
     },
     handleSetText() {
