@@ -8,6 +8,9 @@ export default {
         if (el.classList.contains('code-copy-add')) {
           return;
         }
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+          return;
+        }
         const ComponentClass = Vue.extend(CodeCopy);
         const instacne = new ComponentClass();
         instacne.code = el.innerText;
