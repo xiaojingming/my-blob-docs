@@ -2,7 +2,7 @@
   <span
     class="code-copy-btn"
     @click="handleClickToClipboard"
-    @touch="handleClickToClipboard"
+    @touchstart.prevent="handleClickToClipboard"
   >
     {{ buttonText }}
   </span>
