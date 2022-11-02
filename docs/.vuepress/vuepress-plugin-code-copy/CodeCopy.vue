@@ -2,6 +2,7 @@
   <span
     class="code-copy-btn"
     @click="handleClickToClipboard"
+    @touch="handleClickToClipboard"
   >
     {{ buttonText }}
   </span>
