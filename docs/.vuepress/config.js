@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   head: [
-    [ 'link', { rel: 'icon', href: '/icon.png' } ],
+    [ 'link', { rel: 'icon', href: '/icon.png' }, ],
     [ 'script', {}, `
     var _hmt = _hmt || [];
     (function() {
@@ -21,6 +21,8 @@ module.exports = {
     })();
     </script>
     `],
+    [ 'script', { src: 'https://unpkg.com/vconsole@latest/dist/vconsole.min.js' },  ],
+    [ 'script', {}, ` var vConsole = new window.VConsole();` ]
   ],
   themeConfig: {
     nav: [

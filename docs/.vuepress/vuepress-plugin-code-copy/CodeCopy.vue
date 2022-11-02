@@ -20,6 +20,7 @@ export default {
       this.handleSetClipboard(this.code, this.handleSetText);
     },
     handleSetClipboard(code, cb) {
+      console.log(window.navigator.clipboard)
       if (window.navigator.clipboard) {
         navigator.clipboard.writeText(code).then(cb)
       }
