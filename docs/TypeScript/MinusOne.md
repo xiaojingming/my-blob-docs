@@ -24,11 +24,15 @@ type FiftyFour = MinusOne<55> // 54
 🤣一开始看到这个题目的时候，根本不知道从何入手......后面通过查看别人提交的代码，逐渐有了一点思路。首先TS没有运算能力，或者说需要通过```length```来获取数组属性来得到数字类型，所以上面的问题可以转化成下面这样的形式：
 ```
 type CountRest<T extends number> = xxx;
-type MinusOne<T extends number> = CountRest<T> extends [1, ...infer Rest] ? Rest['length'] : 0;
+type MinusOne<T extends number> = CountRest<T> extends [1, ...infer Rest]
+  ? Rest['length']
+  : 0;
 ```
 这样就可以通过获取```Rest['length']```来获取长度了，所以现在只需要理清```CountRest```的逻辑即可。从```CountRest```字面量层面上也可以看出这是一个获取Rest参数的数量的类型（函数），这时候就面临一个问题，如何保存这个数量，**可以通过添加一个泛型参数来保存**，因为在```MinusOne```中是使用```[1, ...infer Rest]```来进行匹配，所以在```CountRest```第二个泛型我们传递的是每一项都为一的数组(```Array<1>```)。
 ```
-type CountRest<T extends number, Sum extends Array<1> = []> = T extends Sum['length'] ? [...Sum] : CountRest<T, [1, ...Sum]>;
+type CountRest<T extends number, Sum extends Array<1> = []> = T extends Sum['length']
+  ? [...Sum]
+  : CountRest<T, [1, ...Sum]>;
 ```
 主要的逻辑就是通过递归去判断保存的数量是否等于传入的```T```，不相等就会递归，并且```Sum```中添加1，最后返回长度等于```T```的数组。
 

@@ -78,5 +78,12 @@ module.exports = {
         componentsDir: '/docs/.vuepress/components',
       },
     ],
+    [
+      require('./vuepress-plugin-code-copy/index'),
+      {
+        copyButtonText: '复制',
+        copiedButtonText: '已复制！',
+      },
+    ],
   ],
 };

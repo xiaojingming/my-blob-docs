@@ -17,14 +17,12 @@ Implement RemoveIndexSignature\<T\> , exclude the index signature from object ty
 
 For example:
 ```
-
 type Foo = {
   [key: string]: any;
   foo(): void;
 }
 
 type A = RemoveIndexSignature<Foo>  // expected { foo(): void }
-
 ```
 这道题的思路在于如何区分索引签名与普通属性签名，对于索引签名来说```keyof T```会得到具体的类型，如```string```，我们可以利用```'a' extends string```为```true```但```string extends 'a'```为```false```来处理。
 

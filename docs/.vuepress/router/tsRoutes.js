@@ -27,6 +27,10 @@ const tsRoutes = [
     title: 'MinusOne',
     path: '/TypeScript/MinusOne',
   },
+  {
+    title: 'PickByType',
+    path: '/TypeScript/PickByType',
+  },
 ];
 
 module.exports = tsRoutes;

@@ -37,10 +37,14 @@ type NodeC = {
 
 type Nodes = NodeA | NodeB | NodeC
 type ReplacedNodes = ReplaceKeys<Nodes, 'name' | 'flag', {name: number, flag: string}>
-// type ReplacedNode = { type: 'A', name: number, flag: string } | { type: 'B', id: number, flag: string } | { type: 'C', name: number, flag: string }
+// type ReplacedNode = { type: 'A', name: number, flag: string }
+// | { type: 'B', id: number, flag: string }
+// | { type: 'C', name: number, flag: string }
 
 type ReplacedNotExistKeys = ReplaceKeys<Nodes, 'name', {aa: number}>
-// { type: 'A', flag: number, name: never } | { type: 'B', id: number flag: string } | { type: 'C', flag: number, name: never }
+// { type: 'A', flag: number, name: never }
+// | { type: 'B', id: number flag: string }
+// | { type: 'C', flag: number, name: never }
 ```
 
 🤔可能这道题目的难点在于题目的意思不太好理解，整体还是比较简单的：
