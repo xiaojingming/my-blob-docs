@@ -1,4 +1,5 @@
 const tsRoute = require('./router/tsRoutes');
+const testRoutes = require('./router/testRoutes');
 const othersRoutes = require('./router/othersRoutes');
 
 module.exports = {
@@ -65,20 +66,36 @@ module.exports = {
           },
           {
             title: '其它',
-            path: '/Others/nginxLocation',
+            path: '/Others/NginxLocation',
             children: othersRoutes,
           },
+          // {
+          //   title: '测试',
+          //   path: '/Test/Test1',
+          //   children: testRoutes,
+          // },
         ],
       },
     ],
+  },
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use((md) => {
+        const { fence } = md.renderer.rules
+        md.renderer.rules.fence = function f(...args) {
+          debugger
+          let rawCode = fence.apply(this, args);
+          rawCode = rawCode.replace(/\/\/ try-link: (https:\/\/(.*))/img, '<a href="$1" class="try-button" target="_blank">Try</a>');
+          return `${rawCode}`;
+        }
+      });
+    },
   },
   plugins: [
     ['@vuepress/last-updated'],
     [
       '@vuepress/register-components',
-      {
-        componentsDir: '/docs/.vuepress/components',
-      },
+      { componentsDir: '/docs/.vuepress/components' },
     ],
     [
       require('./vuepress-plugin-code-copy/index'),
@@ -87,5 +104,6 @@ module.exports = {
         copiedButtonText: '已复制！',
       },
     ],
+    [ require('./vuepress-plugin-code-try/index') ],
   ],
 };

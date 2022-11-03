@@ -36,7 +36,7 @@ export default {
 <style scoped>
 .code-copy-btn {
   position: absolute;
-  bottom: 10px;
+  top: -10px;
   right: 7.5px;
   opacity: 0.75;
   cursor: pointer;
