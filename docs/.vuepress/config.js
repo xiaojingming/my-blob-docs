@@ -1,5 +1,5 @@
 const tsRoute = require('./router/tsRoutes');
-const testRoutes = require('./router/testRoutes');
+// const testRoutes = require('./router/testRoutes');
 const othersRoutes = require('./router/othersRoutes');
 
 module.exports = {
@@ -83,7 +83,6 @@ module.exports = {
       md.use((md) => {
         const { fence } = md.renderer.rules
         md.renderer.rules.fence = function f(...args) {
-          debugger
           let rawCode = fence.apply(this, args);
           rawCode = rawCode.replace(/\/\/ try-link: (https:\/\/(.*))/img, '<a href="$1" class="try-button" target="_blank">Try</a>');
           return `${rawCode}`;

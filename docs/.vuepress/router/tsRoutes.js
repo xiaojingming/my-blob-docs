@@ -31,6 +31,14 @@ const tsRoutes = [
     title: 'PickByType',
     path: '/TypeScript/PickByType',
   },
+  {
+    title: 'StartsWith',
+    path: '/TypeScript/StartsWith',
+  },
+  {
+    title: 'EndsWith',
+    path: '/TypeScript/EndsWith',
+  },
 ];
 
 module.exports = tsRoutes;
