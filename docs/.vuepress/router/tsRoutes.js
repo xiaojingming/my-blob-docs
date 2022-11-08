@@ -39,6 +39,10 @@ const tsRoutes = [
     title: 'EndsWith',
     path: '/TypeScript/EndsWith',
   },
+  {
+    title: 'PartialByKeys',
+    path: '/TypeScript/PartialByKeys',
+  },
 ];
 
 module.exports = tsRoutes;
