@@ -43,6 +43,10 @@ const tsRoutes = [
     title: 'PartialByKeys',
     path: '/TypeScript/PartialByKeys',
   },
+  {
+    title: 'RequiredByKeys',
+    path: '/TypeScript/RequiredByKeys',
+  },
 ];
 
 module.exports = tsRoutes;

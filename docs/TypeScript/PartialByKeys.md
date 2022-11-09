@@ -6,13 +6,13 @@ date: '2022-11-08'
 
 ### PartialByKeys
 
-[type-chanllenge-partialByKeys github地址](https://github.com/type-challenges/type-challenges/blob/main/questions/02757-medium-partialbykeys/README.zh-CN.md)
+[type-challenge-partialByKeys github地址](https://github.com/type-challenges/type-challenges/blob/main/questions/02757-medium-partialbykeys/README.zh-CN.md)
 
 难度：中等
 
 ### 题目描述
 
-Implement a generic PartialByKeys<T, K> which takes two type argument T and K.
+Implement a generic ```PartialByKeys<T, K>``` which takes two type argument T and K.
 
 K specify the set of properties of T that should set to be optional. When K is not provided, it should make all properties optional just like the normal ```Partial<T>```
 
