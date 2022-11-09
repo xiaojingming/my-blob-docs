@@ -47,6 +47,10 @@ const tsRoutes = [
     title: 'RequiredByKeys',
     path: '/TypeScript/RequiredByKeys',
   },
+  {
+    title: 'Mutable',
+    path: '/TypeScript/Mutable',
+  },
 ];
 
 module.exports = tsRoutes;
