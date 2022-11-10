@@ -51,6 +51,10 @@ const tsRoutes = [
     title: 'Mutable',
     path: '/TypeScript/Mutable',
   },
+  {
+    title: 'OmitByType',
+    path: '/TypeScript/OmitByType',
+  },
 ];
 
 module.exports = tsRoutes;
