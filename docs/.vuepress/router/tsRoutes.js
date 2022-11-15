@@ -55,6 +55,10 @@ const tsRoutes = [
     title: 'OmitByType',
     path: '/TypeScript/OmitByType',
   },
+  {
+    title: 'ObjectEntries',
+    path: '/TypeScript/ObjectEntries',
+  },
 ];
 
 module.exports = tsRoutes;
