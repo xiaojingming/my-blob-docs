@@ -59,6 +59,10 @@ const tsRoutes = [
     title: 'ObjectEntries',
     path: '/TypeScript/ObjectEntries',
   },
+  {
+    title: 'Shift',
+    path: '/TypeScript/Shift',
+  },
 ];
 
 module.exports = tsRoutes;

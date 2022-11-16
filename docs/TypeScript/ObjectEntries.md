@@ -12,7 +12,7 @@ date: '2022-11-15'
 
 #### 题目描述
 
-Implement the type version of Object.entries
+Implement the type version of ```Object.entries```
 
 >(实现类型的Object.entries函数😂)
 
