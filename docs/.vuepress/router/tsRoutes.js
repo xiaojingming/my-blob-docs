@@ -63,6 +63,10 @@ const tsRoutes = [
     title: 'Shift',
     path: '/TypeScript/Shift',
   },
+  {
+    title: 'TupleToNestedObject',
+    path: '/TypeScript/TupleToNestedObject',
+  },
 ];
 
 module.exports = tsRoutes;
