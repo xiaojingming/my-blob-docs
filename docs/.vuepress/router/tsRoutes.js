@@ -67,6 +67,10 @@ const tsRoutes = [
     title: 'TupleToNestedObject',
     path: '/TypeScript/TupleToNestedObject',
   },
+  {
+    title: 'Reverse',
+    path: '/TypeScript/Reverse',
+  },
 ];
 
 module.exports = tsRoutes;
