@@ -71,6 +71,10 @@ const tsRoutes = [
     title: 'Reverse',
     path: '/TypeScript/Reverse',
   },
+  {
+    title: 'FlipArguments',
+    path: '/TypeScript/FlipArguments'
+  }
 ];
 
 module.exports = tsRoutes;
