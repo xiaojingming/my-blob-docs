@@ -74,6 +74,10 @@ const tsRoutes = [
   {
     title: 'FlipArguments',
     path: '/TypeScript/FlipArguments'
+  },
+  {
+    title: 'FlattenDepth',
+    path: '/TypeScript/FlattenDepth'
   }
 ];
 
