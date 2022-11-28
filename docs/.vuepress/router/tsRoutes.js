@@ -78,7 +78,11 @@ const tsRoutes = [
   {
     title: 'FlattenDepth',
     path: '/TypeScript/FlattenDepth'
-  }
+  },
+  {
+    title: 'BEMStyleClass',
+    path: '/TypeScript/BEMStyleClass',
+  },
 ];
 
 module.exports = tsRoutes;
