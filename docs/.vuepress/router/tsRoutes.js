@@ -83,6 +83,10 @@ const tsRoutes = [
     title: 'BEMStyleClass',
     path: '/TypeScript/BEMStyleClass',
   },
+  {
+    title: 'Flip',
+    path: '/TypeScript/Flip',
+  },
 ];
 
 module.exports = tsRoutes;
