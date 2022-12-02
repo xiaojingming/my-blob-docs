@@ -87,6 +87,10 @@ const tsRoutes = [
     title: 'Flip',
     path: '/TypeScript/Flip',
   },
+  {
+    title: 'Fibonacci',
+    path: '/TypeScript/Fibonacci'
+  }
 ];
 
 module.exports = tsRoutes;
