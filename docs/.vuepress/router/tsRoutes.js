@@ -90,7 +90,11 @@ const tsRoutes = [
   {
     title: 'Fibonacci',
     path: '/TypeScript/Fibonacci'
-  }
+  },
+  {
+    title: 'GreaterThan',
+    path: '/TypeScript/GreaterThan',
+  },
 ];
 
 module.exports = tsRoutes;
