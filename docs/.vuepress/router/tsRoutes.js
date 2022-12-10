@@ -93,7 +93,7 @@ const tsRoutes = [
   },
   {
     title: 'GreaterThan',
-    path: '/TypeScript/GreaterThan',
+    path: '/TypeScript/GreaterThen',
   },
 ];
 
