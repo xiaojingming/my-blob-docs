@@ -95,6 +95,10 @@ const tsRoutes = [
     title: 'GreaterThan',
     path: '/TypeScript/GreaterThen',
   },
+  {
+    title: 'Zip',
+    path: '/TypeScript/Zip',
+  },
 ];
 
 module.exports = tsRoutes;
