@@ -99,6 +99,10 @@ const tsRoutes = [
     title: 'Zip',
     path: '/TypeScript/Zip',
   },
+  {
+    title: 'IsTuple',
+    path: '/TypeScript/IsTuple',
+  },
 ];
 
 module.exports = tsRoutes;
