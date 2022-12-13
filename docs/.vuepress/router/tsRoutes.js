@@ -103,6 +103,10 @@ const tsRoutes = [
     title: 'IsTuple',
     path: '/TypeScript/IsTuple',
   },
+  {
+    title: 'Chunk',
+    path: '/TypeScript/Chunk',
+  },
 ];
 
 module.exports = tsRoutes;
