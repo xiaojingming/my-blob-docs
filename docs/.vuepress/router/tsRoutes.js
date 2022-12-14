@@ -107,6 +107,10 @@ const tsRoutes = [
     title: 'Chunk',
     path: '/TypeScript/Chunk',
   },
+  {
+    title: 'Fill',
+    path: '/TypeScript/Fill',
+  },
 ];
 
 module.exports = tsRoutes;
