@@ -115,6 +115,10 @@ const tsRoutes = [
     title: 'TrimRight',
     path: '/TypeScript/TrimRight',
   },
+  {
+    title: 'Without',
+    path: '/TypeScript/Without',
+  },
 ];
 
 module.exports = tsRoutes;

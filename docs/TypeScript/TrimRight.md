@@ -8,7 +8,7 @@ date: '2022-12-15'
 
 [type-challenge-trimRight github地址](https://github.com/type-challenges/type-challenges/blob/main/questions/04803-medium-trim-right/README.zh-CN.md)
 
-难度：中的
+难度：中等
 
 #### 题目描述
 
