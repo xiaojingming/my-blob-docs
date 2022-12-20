@@ -119,6 +119,10 @@ const tsRoutes = [
     title: 'Without',
     path: '/TypeScript/Without',
   },
+  {
+    title: 'Trunc',
+    path: 'TypeScript/Trunc',
+  },
 ];
 
 module.exports = tsRoutes;
