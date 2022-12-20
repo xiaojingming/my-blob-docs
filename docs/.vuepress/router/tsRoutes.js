@@ -123,6 +123,10 @@ const tsRoutes = [
     title: 'Trunc',
     path: 'TypeScript/Trunc',
   },
+  {
+    title: 'IndexOf',
+    path: 'TypeScript/IndexOf',
+  },
 ];
 
 module.exports = tsRoutes;
