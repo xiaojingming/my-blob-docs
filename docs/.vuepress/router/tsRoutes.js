@@ -127,6 +127,10 @@ const tsRoutes = [
     title: 'IndexOf',
     path: 'TypeScript/IndexOf',
   },
+  {
+    title: 'Join',
+    path: 'TypeScript/Join',
+  },
 ];
 
 module.exports = tsRoutes;

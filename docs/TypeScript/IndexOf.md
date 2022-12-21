@@ -40,7 +40,7 @@ type IndexOf<T extends any[], K, S extends 0[] = []> = T extends [infer F, ...in
 type IsEqual<T, K> = (<U>() => U extends T ? 1 : 0) extends (<U>() => U extends K ? 1 : 0) ? true : false;
 ```
 
-[这个是对应的github链接🤣](https://github.com/microsoft/TypeScript/issues/27024)
+[这个是对应的github链接🤣](https://github.com/microsoft/TypeScript/issues/27024)，写不出这个```IsEqual```泛型😫
 
 通过```IsEqual```我们可以对```IndexOf```进行优化
 
