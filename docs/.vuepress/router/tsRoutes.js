@@ -131,6 +131,10 @@ const tsRoutes = [
     title: 'Join',
     path: 'TypeScript/Join',
   },
+  {
+    title: 'LastIndexOf',
+    path: 'TypeScript/LastIndexOf',
+  },
 ];
 
 module.exports = tsRoutes;
