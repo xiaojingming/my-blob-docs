@@ -135,6 +135,10 @@ const tsRoutes = [
     title: 'LastIndexOf',
     path: 'TypeScript/LastIndexOf',
   },
+  {
+    title: 'Unique',
+    path: 'TypeScript/Unique',
+  },
 ];
 
 module.exports = tsRoutes;
