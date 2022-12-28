@@ -82,4 +82,4 @@ type MapTypes<T, R extends { mapFrom: unknown, mapTo: unknown }> = {
 }
 ```
 
-通过```Extract```从联合类型中指定具体类型来实现```MapTypes``
+通过```Extract```从联合类型中指定具体类型来实现```MapTypes```😂
