@@ -139,6 +139,10 @@ const tsRoutes = [
     title: 'Unique',
     path: 'TypeScript/Unique',
   },
+  {
+    title: 'MapTypes',
+    path: 'TypeScript/MapTypes',
+  },
 ];
 
 module.exports = tsRoutes;
