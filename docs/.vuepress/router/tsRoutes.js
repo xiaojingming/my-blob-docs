@@ -1,5 +1,9 @@
 const tsRoutes = [
   {
+    title: 'Awaited',
+    path: '/TypeScript/Awaited',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
