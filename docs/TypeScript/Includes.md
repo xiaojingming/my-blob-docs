@@ -42,7 +42,7 @@ type IsEqual<T, U> =
   (<K>() => K extends T ? true : false) extends (<K>() => K extends U) ? true : false;
 ```
 
-上面是判断两类型是否相等(具体解释😂)[https://stackoverflow.com/questions/68961864/how-does-the-equals-work-in-typescript]，接下来我们递归数组进行判断就可以啦
+上面是判断两类型是否相等[具体解释😂](https://stackoverflow.com/questions/68961864/how-does-the-equals-work-in-typescript)，接下来我们递归数组进行判断就可以啦
 
 ```
 type Includes<T extends readonly any[], U> = T extends [infer First, ...infer Rest]
