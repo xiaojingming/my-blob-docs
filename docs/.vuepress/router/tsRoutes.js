@@ -4,6 +4,10 @@ const tsRoutes = [
     path: '/TypeScript/Awaited',
   },
   {
+    title: 'Includes',
+    path: '/TypeScript/Includes',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
