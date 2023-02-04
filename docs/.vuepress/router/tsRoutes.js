@@ -8,6 +8,10 @@ const tsRoutes = [
     path: '/TypeScript/Includes',
   },
   {
+    title: 'Omit',
+    path: '/TypeScript/Omit',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
