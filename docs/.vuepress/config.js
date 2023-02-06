@@ -32,7 +32,7 @@ module.exports = {
         link: '/Introduction/About',
       },
       {
-        test: '萧~的个人博客',
+        text: '萧~的个人博客',
         items: [
           {
             text: 'Github',
