@@ -12,6 +12,10 @@ const tsRoutes = [
     path: '/TypeScript/Omit',
   },
   {
+    title: 'ReadOnly2',
+    path: '/TypeScript/ReadOnly2',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
