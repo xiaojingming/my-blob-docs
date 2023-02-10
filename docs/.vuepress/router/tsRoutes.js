@@ -16,6 +16,10 @@ const tsRoutes = [
     path: '/TypeScript/ReadOnly2',
   },
   {
+    title: 'ChainableOptions',
+    path: '/TypeScript/ChainableOptions',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
