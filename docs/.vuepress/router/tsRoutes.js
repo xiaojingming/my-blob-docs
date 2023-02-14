@@ -20,6 +20,10 @@ const tsRoutes = [
     path: '/TypeScript/ChainableOptions',
   },
   {
+    title: 'PromiseAll',
+    path: '/TypeScript/PromiseAll',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
