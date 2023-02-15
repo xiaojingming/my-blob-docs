@@ -24,6 +24,10 @@ const tsRoutes = [
     path: '/TypeScript/PromiseAll',
   },
   {
+    title: 'LookUp',
+    path: '/TypeScript/LookUp',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },

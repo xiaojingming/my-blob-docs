@@ -38,7 +38,7 @@ declare function PromiseAll<T>(values: T): {
 PromiseAll([1, 2, Promise.resolve(3)]) // [number, number, number]
 ```
 
-使用上面的`PromiseAll`只能推断出`number[]`类型，这是应为参数`T`被推断为`number[]`，所以我们需要将参数转化为元组且参数可以传入数组。
+使用上面的`PromiseAll`只能推断出`number[]`类型，这是因为参数`T`被推断为`number[]`，所以我们需要将参数转化为元组且参数可以传入数组。
 
 ```
 declare function PromiseAll<T extends unknown[]>(values: readonly[...T]): Promise<{
