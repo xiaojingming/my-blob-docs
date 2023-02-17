@@ -11,7 +11,7 @@ date: '2023-02-14'
 
 #### 题目描述
 
-Type the function PromiseAll that accepts an array of PromiseLike objects, the returning value should be Promise<T> where T is the resolved result array.
+Type the function PromiseAll that accepts an array of PromiseLike objects, the returning value should be Promise`<T>` where T is the resolved result array.
 
 >(声明`PromiseAll`函数，它接受`PromiseLike`数组，返回值应为`Promise<T>`其中`T`为解析的结果)
 
@@ -19,7 +19,7 @@ For example:
 
 const promise1 = Promise.resolve(3);
 const promise2 = 42;
-const promise3 = new Promise<string>((resolve, reject) => {
+const promise3 = new Promise`<string>`((resolve, reject) => {
   setTimeout(resolve, 100, 'foo');
 });
 
