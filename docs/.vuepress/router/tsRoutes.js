@@ -32,6 +32,10 @@ const tsRoutes = [
     path: '/TypeScript/TrimLeft',
   },
   {
+    title: 'Trim',
+    path: '/TypeScript/Trim',
+  },
+  {
     title: 'IsNever',
     path: '/TypeScript/IsNever',
   },
