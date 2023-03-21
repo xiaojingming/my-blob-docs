@@ -37,7 +37,7 @@ const tsRoutes = [
   },
   {
     title: 'Replace',
-    path: '/TypeSctipt/Replace',
+    path: '/TypeScript/Replace',
   },
   {
     title: 'IsNever',
