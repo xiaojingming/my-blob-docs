@@ -37,7 +37,7 @@ const tsRoutes = [
   },
   {
     title: 'Replace',
-    path: '/TypeSctipr/Replace',
+    path: '/TypeSctipt/Replace',
   },
   {
     title: 'IsNever',
