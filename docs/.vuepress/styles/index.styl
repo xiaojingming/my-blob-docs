@@ -3,3 +3,25 @@
   background-color: rgba(58,58,92,0.7);
   color: #fff;
 }
+// 默认样式
+.try-button {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-weight: 100;
+  border: 1px solid #719af4;
+  border-radius: 4px;
+  color: #719af4;
+  padding: 2px 8px;
+  text-decoration: none;
+  transition-timing-function: ease;
+  transition: opacity .3s;
+  opacity: 1;
+}
+
+// hover 样式
+.content__default:not(.custom) a.try-button:hover {
+  background-color: #719af4;
+  color: #fff;
+  text-decoration: none;
+}
