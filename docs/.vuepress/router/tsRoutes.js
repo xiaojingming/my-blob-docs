@@ -182,7 +182,7 @@ const tsRoutes = [
   {
     title: 'MapTypes',
     path: 'TypeScript/MapTypes',
-  }
+  },
 ];
 
 module.exports = tsRoutes;
